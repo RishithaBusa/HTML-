@@ -1,0 +1,90 @@
+SEMATIC HTML PART 2:
+
+***MAIN:
+The element <main> is used to encapsulate the dominant content within a webpage.
+contain the principal content.
+By using <main> as opposed to a <div> element, screen readers and web browsers are better able to identify that whatever is inside of the tag is the bulk of the content.
+
+ex:
+<main>
+  <header>
+    <h1>Types of Sports</h1>
+  </header>
+  <article>
+    <h3>Baseball</h3>
+
+artical and header tag
+__________________________________________
+
+**footer
+at the bottom
+
+The content at the bottom of the subject information is known as the footer, indicated by the <footer> element. The footer contains information such as:
+
+Contact information
+Copyright information
+Terms of use
+Site Map
+Reference to top of page links
+For example:
+
+<footer>
+  <p>Email me at Codey@Codecademy.com</p>
+</footer>
+
+__________________________________________***INSIDE SEMANTIC HTML***
+***SECTION:
+<section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+
+A website’s home page could be split into sections for the introduction, news items, and contact information.
+
+
+<section>
+  <h2>Fun Facts About Cricket</h2> 
+</section>
+__________________________________________
+***ARTICLE
+The <article> element holds content that makes sense on its own. <article> can hold content such as articles, blogs, comments, magazines, etc. An <article> tag would help someone using a screen reader understand where the article content (that might contain a combination of text, images, audio, etc.) begins and ends.
+
+<article>
+    <p>A single match of cricket can last up to 5 days.</p>
+__________________________________________
+***The Aside Element
+The <aside> element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content.
+**note:remeber 
+legends never die
+__________________________________________
+***Figure and Figcaption
+<figure> is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document.
+
+<figure>
+  <img src="overwatch.jpg">
+  <figcaption>picture</figcaption>
+</figure>
+
+
+<figcaption> is an element used to describe the media in the <figure> tag. Usually, <figcaption> will go inside <figure>. This is different than using a <p> element to describe the content; if we decide to change the location of <figure>, the paragraph tag may get displaced from the figure while a <figcaption> will move with the figure. This is useful for grouping an image with a caption.
+__________________________________________
+Audio and Attributes:
+The <audio> element is used to embed audio content into a document. Like <video>, <audio> uses src to link the audio source.
+
+**attributes:
+src,type="audio/mp.3,loop,muted(false by default if we dont add)
+<controls>---inside audio to add neccesary controls---same as vedio
+_____________________________________________
+Video and Embed:
+ The <video> element makes it clear that a developer is attempting to display a video to the user.
+
+Some attributes that can alter a video playback include:
+
+controls: When added in, a play/pause button will be added onto the video along with volume control and a fullscreen option.
+autoplay: The attribute which results in a video automatically playing as soon as the page is loaded.
+loop: This attribute results in the video continuously playing on repeat.
+ex----<video src="coding.mp4" controls>Video not supported</video>
+
+<embed> tag, which can embed any media content including videos, audio files, and gifs from an external source
+The <embed> tag is a self-closing tag
+
+<embed src="download.gif"/>
+______________________________________________
+

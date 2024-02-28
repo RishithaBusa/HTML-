@@ -1,0 +1,71 @@
+***Table***
+table tag to display the content in tabular form
+ it contains the rows, columns, and cells that will hold data. In HTML, all of these components must be created.
+The first step in entering data into the table is to add rows using the table row element: <tr>.
+Rows aren’t sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: <td>.
+
+Table Headings
+Table data doesn’t make much sense without titles to describe what the data represents.
+
+To add titles to rows and columns, you can use the table heading element: <th>.
+
+<th scope="col">Sunday</th>
+
+Note, also, the use of the scope attribute, which can take one of two values:
+
+row - this value makes it clear that the heading is for a row.
+col - this value makes it clear that the heading is for a column.
+
+**border=1 is an attribute in table tag to specify the border but in present versions we are using css to create borders
+
+***spanning columns
+
+colspan attribute inside table data with the value
+
+syntax<tb colspan="value">
+
+**spanning rows:
+rowspan att---td --values
+------------------------------------------table body :
+inside table tag
+the table can be sectioned off so that it is easier to manage.
+
+table head:
+all the heading rows of the table must be kept in the <thead> tag
+
+table footer:
+at the end of the table to add sums etc
+suntax
+<tfoot><td> we dont use <tr> in these
+------------------------------------------
+
+FORM:
+
+There’s a good chance that if you’re typing into a text field or providing an input, the field that you’re typing into is part of a <form>!
+
+form action="/example.html" method="POST">
+</form>
+The action attribute determines where the information is sent.
+
+The method attribute is assigned a HTTP verb that is included in the HTTP request.
+
+the method name can is not case sensitive
+ ***form can have child elements like para,heading etc to provide user more info
+
+**INPUT:
+to enter input form user side
+we will use<input> tag
+att:type(by default text),name(name to send the information after the form is submitted)
+
+<input type="text" name="first-text-field">
+***NO CLOSING TAG FOR INPUT***
+
+value attribute 
+the value is assigned to the name attribute when the form is submitted
+**we can also provide pre defined text for value**
+
+****placeholder-- to place the text in grey colour*****
+
+lable
+have opening and closing tag
+We then assign the for attribute of the <label> element with the value of the id attribute of <input>

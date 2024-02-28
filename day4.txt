@@ -1,0 +1,34 @@
+***PASSWORD***
+In input tag we need to specify type=password
+
+***NUMBER***
+In input tab we need to specify type="number"
+we can use a attribute called as step(remember expenses tracker)
+
+***range***
+to provide user a limit
+a silder eith specidied step six=ze btw min an d max values is displayed
+
+***check boxes***
+when we want user to select more than one option
+we use it in the type="checkbox" 
+NOTE:for all the checkboxes the name should be sam so that the result is grouped but thed id is different to sync with the lable 
+
+
+***radio button***
+when we want user to select only one option we use type="radio"
+with each radio button we need to use a lable to display the content
+same as checkbutton the name should be same for all the set but id should be differ
+
+
+----------------------------------------------
+***DROPDOWN LIST***
+List of options in which user can select one.
+choose one option from an organized list. Here’s the code to create a dropdown menu
+
+
+The text rendered is the text included between the opening and closing <option> tags. However, it is the value of the value attribute that is used in <form> submission (notice the difference in the text and value capitalization). When the <form> is submitted, the information from this input field will be sent using the name of the <select> and the value of the chosen <option>. For instance, if a user selected Pizza from the dropdown list, the information would be sent as "lunch=pizza".
+
+ 
+
+

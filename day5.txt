@@ -1,0 +1,31 @@
+***datalist***
+Even if we have an organized dropdown list, if the list has a lot of options, it could be tedious for users to scroll through the entire list to locate one option. That’s where using the <datalist> element comes in handy.
+
+<input type="text" list="cities" id="city" name="city">
+
+  <datalist id="cities">
+The <input> is associated to the <datalist> via the <input>‘s list attribute and the id of the <datalist>.
+------------------------------------------
+***text area***
+when we want to provide user a space to write large content we use this tag
+We can add the attributes rows and cols to determine the amount of rows and columns for the <textarea>.
+value="content written in text area"
+<textarea id="blog" name="blog" rows="5" cols="30">
+  </textarea
+-----------------------------------------
+Submit Form
+
+submit button is a input type
+value is what displayed on button by default submit is displayed
+  <input type="submit" value="Send">
+-----------------------------------------
+special attribtes in input
+**required attribute is used for adding that we cant submit a form letfing the field empyt.
+***min ,max to enter values in a range for a number field
+**minlenght maxlength for text length (ex:remember courses financial aid)
+***PATTERN:
+matching pattern x:credit card num
+input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+also username without special chars
+------------------------------------------
+
