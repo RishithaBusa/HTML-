@@ -1,0 +1,81 @@
+HTML is the skeleton of all web pages
+
+HTML provides structure to the content appearing on a website, such as im+
+ages, text, or videos. 
+HTML stands for HyperText Markup Language
+A markup language is a computer language that defines the structure and presentation of raw text.
+In HTML, the computer can interpret raw text that is wrapped in HTML elements.
+HyperText is text displayed on a computer or device that provides access to other text through links, also known as hyperlinks. You probably clicked on a couple of hyperlinks on your way to this Codecademy course.
+
+
+HTML Anatomy:
+
+HTML is composed of elements.
+These elements structure the webpage and define its content.
+A tag and the content between it is called an HTML element. 
+Let’s quickly review each part of the element pictured:
+
+HTML element (or simply, element) — a unit of content in an HTML document formed by HTML tags and the text or media it contains.
+
+HTML Tag — the element name, surrounded by an opening (<) and closing (>) angle bracket.
+
+Opening Tag — the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.
+
+Content — The information (text or other elements) contained between the opening and closing tags of an HTML element.
+
+Closing tag — the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.
+
+
+The Body:
+
+One of the key HTML elements we use to build a webpage is the body element. Only content inside the opening and closing body tags can be displayed to the screen. Here’s what opening and closing body tags look like:
+<body></body>
+
+HTML Structure:
+HTML is organized as a collection of family tree relationships.
+When an element is contained inside another element, it is considered the child of that element. The child element is said to be nested inside of the parent element.
+
+Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, great-grandchildren, and beyond. The relationship between elements and their ancestor and descendent elements is known as hierarchy.
+
+
+Headings
+Headings in HTML are similar to headings in other types of media. 
+
+HTML follows a similar pattern. In HTML, there are six different headings, or heading elements.  H1--H6
+
+
+Divs
+One of the most popular elements in HTML is the <div> element. <div> is short for “division” or a container that divides the page into sections. These sections are very useful for grouping elements in your HTML together.
+
+<div>s don’t inherently have a visual representation, but they are very useful when we want to apply custom styles to our HTML elements. 
+
+***2 spaces of indentation***
+
+
+Attributes:
+
+ Attributes are content added to the opening tag of an element and can be used in several different ways, from providing information to changing styling.
+
+Attributes are made up of the following two parts:
+
+The name of the attribute
+The value of the attribute
+
+One commonly used attribute is the id. We can use the id attribute to specify different content (such as <div>s) and is really helpful when you use an element more than once. ids have several different purposes in HTML, but for now, we’ll focus on how they can help us identify content on our page.
+
+
+Displaying Text:
+
+
+If you want to display text in HTML, you can use a paragraph or span:
+
+Paragraphs (<p>) contain a block of plain text.
+<span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.
+
+
+
+Styling Text
+
+You can also style text using HTML tags. The <em> tag emphasizes text, while the <strong> tag highlights important text.
+The <em> tag will generally render as italic emphasis.
+The <strong> will generally render as bold emphasis.
